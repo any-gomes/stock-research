@@ -140,6 +140,7 @@ writeAnalyses = Task(
     - Introduction - set the overall picture and spike up the interest
     - main part provides the meat of the analysis including the news summary and fead/greed scores
     - summary - key facts and concrete future trend prediction - up, down or sideways.
+    Translate to Portuguese Brazil
 """,
     agent = stockAnalystWrite,
     context = [getStockPrice, get_news]
